@@ -21,10 +21,10 @@ type ShipNavFlightMode string
 
 // List of ShipNavFlightMode
 const (
-	DRIFT ShipNavFlightMode = "DRIFT"
-	STEALTH ShipNavFlightMode = "STEALTH"
-	CRUISE ShipNavFlightMode = "CRUISE"
-	BURN ShipNavFlightMode = "BURN"
+	SHIPNAVFLIGHTMODE_DRIFT ShipNavFlightMode = "DRIFT"
+	SHIPNAVFLIGHTMODE_STEALTH ShipNavFlightMode = "STEALTH"
+	SHIPNAVFLIGHTMODE_CRUISE ShipNavFlightMode = "CRUISE"
+	SHIPNAVFLIGHTMODE_BURN ShipNavFlightMode = "BURN"
 )
 
 // All allowed values of ShipNavFlightMode enum

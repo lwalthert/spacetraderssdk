@@ -29,7 +29,7 @@ type PatchShipNavRequest struct {
 // will change when the set of required properties is changed
 func NewPatchShipNavRequest() *PatchShipNavRequest {
 	this := PatchShipNavRequest{}
-	var flightMode ShipNavFlightMode = CRUISE
+	var flightMode ShipNavFlightMode = SHIPNAVFLIGHTMODE_CRUISE
 	this.FlightMode = &flightMode
 	return &this
 }
@@ -39,7 +39,7 @@ func NewPatchShipNavRequest() *PatchShipNavRequest {
 // but it doesn't guarantee that properties required by API are set
 func NewPatchShipNavRequestWithDefaults() *PatchShipNavRequest {
 	this := PatchShipNavRequest{}
-	var flightMode ShipNavFlightMode = CRUISE
+	var flightMode ShipNavFlightMode = SHIPNAVFLIGHTMODE_CRUISE
 	this.FlightMode = &flightMode
 	return &this
 }

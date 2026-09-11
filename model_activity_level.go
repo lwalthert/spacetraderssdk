@@ -21,10 +21,10 @@ type ActivityLevel string
 
 // List of ActivityLevel
 const (
-	WEAK ActivityLevel = "WEAK"
-	GROWING ActivityLevel = "GROWING"
-	STRONG ActivityLevel = "STRONG"
-	RESTRICTED ActivityLevel = "RESTRICTED"
+	ACTIVITYLEVEL_WEAK ActivityLevel = "WEAK"
+	ACTIVITYLEVEL_GROWING ActivityLevel = "GROWING"
+	ACTIVITYLEVEL_STRONG ActivityLevel = "STRONG"
+	ACTIVITYLEVEL_RESTRICTED ActivityLevel = "RESTRICTED"
 )
 
 // All allowed values of ActivityLevel enum

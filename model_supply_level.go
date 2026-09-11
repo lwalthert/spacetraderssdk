@@ -21,11 +21,11 @@ type SupplyLevel string
 
 // List of SupplyLevel
 const (
-	SCARCE SupplyLevel = "SCARCE"
-	LIMITED SupplyLevel = "LIMITED"
-	MODERATE SupplyLevel = "MODERATE"
-	HIGH SupplyLevel = "HIGH"
-	ABUNDANT SupplyLevel = "ABUNDANT"
+	SUPPLYLEVEL_SCARCE SupplyLevel = "SCARCE"
+	SUPPLYLEVEL_LIMITED SupplyLevel = "LIMITED"
+	SUPPLYLEVEL_MODERATE SupplyLevel = "MODERATE"
+	SUPPLYLEVEL_HIGH SupplyLevel = "HIGH"
+	SUPPLYLEVEL_ABUNDANT SupplyLevel = "ABUNDANT"
 )
 
 // All allowed values of SupplyLevel enum

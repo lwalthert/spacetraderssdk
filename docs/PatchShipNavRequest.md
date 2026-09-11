@@ -4,7 +4,7 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**FlightMode** | Pointer to [**ShipNavFlightMode**](ShipNavFlightMode.md) |  | [optional] [default to CRUISE]
+**FlightMode** | Pointer to [**ShipNavFlightMode**](ShipNavFlightMode.md) |  | [optional] [default to SHIPNAVFLIGHTMODE_CRUISE]
 
 ## Methods
 

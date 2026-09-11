@@ -21,9 +21,9 @@ type ShipNavStatus string
 
 // List of ShipNavStatus
 const (
-	IN_TRANSIT ShipNavStatus = "IN_TRANSIT"
-	IN_ORBIT ShipNavStatus = "IN_ORBIT"
-	DOCKED ShipNavStatus = "DOCKED"
+	SHIPNAVSTATUS_IN_TRANSIT ShipNavStatus = "IN_TRANSIT"
+	SHIPNAVSTATUS_IN_ORBIT ShipNavStatus = "IN_ORBIT"
+	SHIPNAVSTATUS_DOCKED ShipNavStatus = "DOCKED"
 )
 
 // All allowed values of ShipNavStatus enum

@@ -21,11 +21,11 @@ type WaypointModifierSymbol string
 
 // List of WaypointModifierSymbol
 const (
-	STRIPPED WaypointModifierSymbol = "STRIPPED"
-	UNSTABLE WaypointModifierSymbol = "UNSTABLE"
-	RADIATION_LEAK WaypointModifierSymbol = "RADIATION_LEAK"
-	CRITICAL_LIMIT WaypointModifierSymbol = "CRITICAL_LIMIT"
-	CIVIL_UNREST WaypointModifierSymbol = "CIVIL_UNREST"
+	WAYPOINTMODIFIERSYMBOL_STRIPPED WaypointModifierSymbol = "STRIPPED"
+	WAYPOINTMODIFIERSYMBOL_UNSTABLE WaypointModifierSymbol = "UNSTABLE"
+	WAYPOINTMODIFIERSYMBOL_RADIATION_LEAK WaypointModifierSymbol = "RADIATION_LEAK"
+	WAYPOINTMODIFIERSYMBOL_CRITICAL_LIMIT WaypointModifierSymbol = "CRITICAL_LIMIT"
+	WAYPOINTMODIFIERSYMBOL_CIVIL_UNREST WaypointModifierSymbol = "CIVIL_UNREST"
 )
 
 // All allowed values of WaypointModifierSymbol enum

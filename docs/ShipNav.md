@@ -8,7 +8,7 @@ Name | Type | Description | Notes
 **WaypointSymbol** | **string** | The symbol of the waypoint. | 
 **Route** | [**ShipNavRoute**](ShipNavRoute.md) |  | 
 **Status** | [**ShipNavStatus**](ShipNavStatus.md) |  | 
-**FlightMode** | [**ShipNavFlightMode**](ShipNavFlightMode.md) |  | [default to CRUISE]
+**FlightMode** | [**ShipNavFlightMode**](ShipNavFlightMode.md) |  | [default to SHIPNAVFLIGHTMODE_CRUISE]
 
 ## Methods
 

@@ -52,7 +52,7 @@ func NewShipNav(systemSymbol string, waypointSymbol string, route ShipNavRoute, 
 // but it doesn't guarantee that properties required by API are set
 func NewShipNavWithDefaults() *ShipNav {
 	this := ShipNav{}
-	var flightMode ShipNavFlightMode = CRUISE
+	var flightMode ShipNavFlightMode = SHIPNAVFLIGHTMODE_CRUISE
 	this.FlightMode = flightMode
 	return &this
 }
